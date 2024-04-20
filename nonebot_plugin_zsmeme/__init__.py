@@ -9,8 +9,10 @@ from io import BytesIO
 __plugin_meta__ = PluginMetadata(
     name='战双表情',
     description='发送bwiki的战双表情',
-    usage='战双表情/zsmeme',
-    extra={}
+    usage='使用命令：战双表情/zsmeme',
+    type="application",
+    homepage="https://github.com/shi-yingyingjiang/nonebot-plugin-zsmeme",
+    supported_adapters = {"nonebot.adapters.onebot.v11"},
 )
 
 
