@@ -19,5 +19,5 @@ pgr_meme = on_command("战双表情", aliases={'zsmeme','pgrmeme'})
 
 @pgr_meme.handle()
 async def get_img():
-    the_url = str(the_meme_url())
+    the_url = await the_meme_url()
     await pgr_meme.send(MessageSegment.image(the_url))
