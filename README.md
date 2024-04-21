@@ -38,6 +38,11 @@ _✨发送寰宇重工中的表情 ✨_
 <summary>pip</summary>
 
     pip install nonebot-plugin-zsmeme
+
+打开 nonebot2 项目根目录下的 `pyproject.toml` 文件, 在 `[tool.nonebot]` 部分追加写入
+
+    plugins = ["nonebot_plugin_template"]
+    
 </details>
 
 
